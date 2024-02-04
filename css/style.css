@@ -7,6 +7,7 @@
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 
 h1 {
@@ -34,7 +35,7 @@ p {
 
 header {
     padding: 1px;
-    background: #6E9CAA;
+    background: #e95b42bd;
 }
 
 .navbar {
@@ -55,6 +56,7 @@ header {
 .nav-link {
     color: #fff !important;
     font-weight: 600;
+    transition: 1s;
 }
 
 .logo {
@@ -363,8 +365,8 @@ header .home-hero {
 
 #about-excerpt .btn-header {
     color: #fff;
-    background-color: #6E9CAA;
-    border-color: #6E9CAA;
+    background-color: #e95b42bd;
+    border-color: #e95b42bd;
     margin-top: 1%;
     transition: all 0.4s ease-in-out;
 }
@@ -375,8 +377,8 @@ header .home-hero {
 }
 
 #about-excerpt .btn-header:hover {
-    color: #6E9CAA;
-    border-color: #6E9CAA;
+    color: #e95b42bd;
+    border-color: #e95b42bd;
     background-color: #fff;
 }
 
@@ -580,7 +582,7 @@ img {
 }
 
 .footer-list {
-    background: #6E9CAA ;
+    background: #e95b42bd ;
     padding: 1px;
     text-align: center;
 }
@@ -595,10 +597,11 @@ img {
     color: #fff;
     margin-top: 4%;
     transition: all 0.4s ease;
+    font-weight: 600;
 }
 
 .footlink:hover {
-    color: #e4a13d;
+    color: #000000;
     text-decoration: none;
 }
 
@@ -682,40 +685,13 @@ img {
     -webkit-border-radius: 4px 4px 0 0;
 }
 
-.product-list .pro-img-box {
-    position: relative;
-}
-
-.price {
-    background: #E4A13D;
-    width: 180px;
-    height: 50px;
-    color: #FFFFFF;
-    font-weight: 600;
-    display: inline-block;
-    text-align: center;
-    padding-top: 14px;
-    left: 28%;
-    bottom: -25px;
-    position: absolute;
-}
 
 
-.pro-title {
-    color: #5A5A5A;
-    display: inline-block;
-    margin-top: 20px;
-    font-size: 16px;
-}
 
-.fa.fa-bookmark, .fa.fa-shopping-cart {
-    color: #6E9CAA;
-    -webkit-text-stroke-width: 1.4px;
-    -webkit-text-stroke-color: #FFFFFF;
-}
+
 
 .panel_body {
-    background-color: #6E9CAA;
+    background-color: #e95b42bd;
 }
 
 /* SHOP PAGE CSS ENDS HERE */
@@ -772,14 +748,14 @@ img {
 /* Contact Form Styles Starts Here */
 
 .form-btn {
-    background-color: #6E9CAA;
+    background-color: #e95b42bd;
     border-radius: 5px;
     width: 100%;
     color: #fff;
     padding: 10px 0;
     font-size: 16px;
     box-sizing: border-box;
-    border: 2px solid #6E9CAA;
+    border: 2px solid #e95b42bd;
     transition: all 0.4s ease-in-out;
 }
 
@@ -789,8 +765,8 @@ img {
 
 .form-btn:hover {
     background-color: rgba(0, 0, 0, 0);
-    border: 2px solid #6E9CAA;
-    color: #6E9CAA;
+    border: 2px solid #e95b42bd;
+    color: #e95b42bd;
 }
 
 #contact-form input {
@@ -811,7 +787,7 @@ img {
 }
 
 #contact-form textarea:focus, #contact-form input:focus {
-    border-color: #6E9CAA;
+    border-color: #e95b42bd;
     box-shadow: none;
 }
 
@@ -828,7 +804,7 @@ img {
 #contact-info .address-icon {
     width: 65px;
     height: 65px;
-    background-color: #6E9CAA;
+    background-color: #e95b42bd;
     border-radius: 100%;
     margin-left: 10px;
 }
