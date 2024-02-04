@@ -97,8 +97,9 @@ header .home-hero {
 }
 
 .header-img {
-    display: none;
+    /* display: none; */
     border-radius: 10px;
+    margin-top: 10px;
 }
 
 .btn-header {
