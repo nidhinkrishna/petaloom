@@ -11,7 +11,7 @@ ScrollReveal({
     duration: 1000,
     delay: 150
  });
- ScrollReveal().reveal('.logo,.first-img,.nav-link', {origin:'top'});
+ ScrollReveal().reveal('.logo,.first-img', {origin:'top'});
  ScrollReveal().reveal('.first-ltr,#products,.gal-img', {origin:'bottom'});
 
  ScrollReveal().reveal('.why-us_main-title,.why-us-img,.projects h3',{origin:'left'});
